@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.study</groupId>
+        <artifactId>his</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+    <artifactId>his-system</artifactId>
+    <name>his-system</name>
+    <description>his-system</description>
+    <modules>
+        <module>system-api</module>
+        <module>system-domain</module>
+        <module>system-mapper</module>
+        <module>system-service</module>
+        <module>system-web</module>
+    </modules>
+
+    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.study</groupId>
+            <artifactId>his-commons</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
